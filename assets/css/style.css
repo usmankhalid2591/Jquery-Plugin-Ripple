@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: fantasy, sans-serif; }
+
+.hero-bg {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; }
+  .hero-bg .content-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .hero-bg .content-bg .content-inner {
+      padding: 30px; }
+      .hero-bg .content-bg .content-inner h1 {
+        font-size: 40px;
+        color: #fff; }
+      .hero-bg .content-bg .content-inner p {
+        font-size: 25px;
+        color: #fff; }
+    .hero-bg .content-bg button {
+      background-color: transparent;
+      width: 300px;
+      height: 40px;
+      font-size: 20px;
+      margin: 10px;
+      border: none; }
+    .hero-bg .content-bg button:hover {
+      color: #a9a9a9;
+      border: 1px solid #a9a9a9; }
+
+/*# sourceMappingURL=style.css.map */

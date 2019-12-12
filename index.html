@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ripple Effect</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <div class="hero-bg">
+        <div class="content-bg">
+            <div class="content-inner">
+                <h1>Web Development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsam quos ex vel, commodi magnam, impedit aperiam a nisi illo accusamus recusandae!</p>
+            </div>
+            <button id="ctaHero">Push me</button>
+        </div>
+    </div>
+    
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <script>
+        $(function(){
+            $("#ctaHero").click(function(){
+                $('.hero-bg').ripples({
+                    resolution: 256,
+                    dropRadius: 20,
+                    perturbance: 0.03,
+                    interactive: true,
+                    
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
